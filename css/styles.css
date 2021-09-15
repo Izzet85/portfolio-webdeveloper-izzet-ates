@@ -510,8 +510,13 @@ Projects
   transition: var(--transition);
   border-radius: var(--radius);
   height: 15rem;
+  
   -o-object-fit: cover;
   object-fit: cover;
+}
+img .project-img{
+  width:50px;
+
 }
 .project:hover .project-img {
   opacity: 0.1;
