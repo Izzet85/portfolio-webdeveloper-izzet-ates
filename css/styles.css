@@ -554,7 +554,7 @@ img .project-img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1370px) {
   .projects-center {
     grid-template-rows: 200px 200px;
     gap: 1rem;
