@@ -509,7 +509,8 @@ Projects
 .project-img {
   transition: var(--transition);
   border-radius: var(--radius);
-  height: 5rem;
+  height: 10rem;
+  width: 100%;
 
   -o-object-fit: cover;
   object-fit: cover;
