@@ -509,14 +509,14 @@ Projects
 .project-img {
   transition: var(--transition);
   border-radius: var(--radius);
-  height: 15rem;
-  
+  height: 5rem;
+
   -o-object-fit: cover;
   object-fit: cover;
 }
-img .project-img{
-  width:50px;
-
+img .project-img {
+  width: 5px;
+  height: 20px;
 }
 .project:hover .project-img {
   opacity: 0.1;
