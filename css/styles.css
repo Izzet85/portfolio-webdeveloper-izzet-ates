@@ -682,16 +682,20 @@ Skills
     column-gap: 2rem;
   }
 }
-.section-skills {
+.section-skills  {
   background: var(--clr-primary-9);
 }
+.section-skills .section-title{
+  padding-top: 1.5rem;
+}
 .section-skills h3 {
-  margin: 1.5rem 0;
+  margin: 0.5rem 1.5rem;
   color: var(--clr-primary-1);
 }
 
 .section-skills {
   margin-bottom: 1.25rem;
+  margin-top: 1rem
 }
 .section-skills p {
   margin-bottom: 0.5rem;
@@ -701,7 +705,7 @@ Skills
 .skill-container {
   background: var(--clr-white);
   height: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   width: 100%;
   border-radius: var(--radius);
   position: relative;
