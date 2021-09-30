@@ -352,7 +352,7 @@ Hero
 .hero-btn {
   margin-top: 1.25rem;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1092px) {
   .hero-img {
     display: block;
     position: relative;
@@ -682,10 +682,10 @@ Skills
     column-gap: 2rem;
   }
 }
-.section-skills  {
+.section-skills {
   background: var(--clr-primary-9);
 }
-.section-skills .section-title{
+.section-skills .section-title {
   padding-top: 1.5rem;
 }
 .section-skills h3 {
@@ -695,7 +695,7 @@ Skills
 
 .section-skills {
   margin-bottom: 1.25rem;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 .section-skills p {
   margin-bottom: 0.5rem;
