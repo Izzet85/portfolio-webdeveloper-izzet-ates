@@ -194,6 +194,9 @@ Navbar
   align-items: center;
   transition: var(--transition);
 }
+.nav-header h4{
+  margin-top:2px;
+}
 .nav-center {
   width: 100%;
   max-width: 1170px;
@@ -718,6 +721,15 @@ Skills
   height: 100%;
   width: 50%;
 }
+.value-30{
+  width: 30%;
+}
+.value-40{
+  width: 40%;
+}
+.value-60{
+  width: 60%;
+}
 .value-70 {
   width: 70%;
 }
@@ -987,4 +999,8 @@ Products Page
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 3rem 1rem;
+}
+
+.footer p {
+  margin-top: 50px;
 }
