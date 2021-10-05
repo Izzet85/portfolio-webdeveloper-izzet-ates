@@ -194,8 +194,8 @@ Navbar
   align-items: center;
   transition: var(--transition);
 }
-.nav-header h4{
-  margin-top:2px;
+.nav-header h4 {
+  margin-top: 2px;
 }
 .nav-center {
   width: 100%;
@@ -721,13 +721,13 @@ Skills
   height: 100%;
   width: 50%;
 }
-.value-30{
+.value-30 {
   width: 30%;
 }
-.value-40{
+.value-40 {
   width: 40%;
 }
-.value-60{
+.value-60 {
   width: 60%;
 }
 .value-70 {
@@ -899,7 +899,8 @@ Footer
 ===============
 */
 .footer {
-  padding-bottom: 2rem;
+  padding-bottom: 0.1rem;
+  padding-top: 1px;
   background: #222;
   display: grid;
   place-items: center;
@@ -915,6 +916,7 @@ Footer
 }
 .footer p {
   font-size: 1.25rem;
+  margin-bottom: 40px;
   text-transform: capitalize;
 }
 /*
